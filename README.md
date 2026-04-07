@@ -17,6 +17,6 @@ A bash script for setting up a secure [WireGuard](https://www.wireguard.com/) VP
 - Ensure that the CSP firewall allows UDP port 51820
 - SSH into the VM and execute the script
   ```bash
-  sudo bash <(curl -s https://github.com/gavin-lb/wireguard-setup/setup.sh)
+  curl -sL https://raw.github.com/gavin-lb/wireguard-setup/master/setup.sh | sudo bash
   ```
 - Copy the output client config to your WireGuard client or scan the QR code with the WireGuard mobile app
